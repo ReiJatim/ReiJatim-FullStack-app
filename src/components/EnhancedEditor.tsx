@@ -37,7 +37,7 @@ import {
 } from "lucide-react";
 import imageCompression from "browser-image-compression";
 
-const MAX_FILE_SIZE = 2 * 1024 * 1024; // 2MB
+const MAX_FILE_SIZE = 10 * 1024 * 1024; // 2MB
 
 const EnhancedEditor: React.FC = () => {
   const [title, setTitle] = useState("");
